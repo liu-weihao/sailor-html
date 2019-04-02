@@ -1,0 +1,228 @@
+html, body, div, span, h1, h2, h3, p, ul, li{
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	/*min-width: 980px;*/
+	min-width: 410px;
+	background: #000;
+	opacity: 0.6;
+}
+.wrap{
+	height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-right: auto;
+    line-height: 50px;
+}
+.logo{
+	width: 30px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.navbox{
+	height: 50px;
+	overflow: hidden;
+}
+.navList{
+	float: left;
+}
+.item{
+	float: left;
+	margin-left: 20px;
+}
+
+
+.ad{
+	width: 100%;
+	/*min-width: 980px;*/
+	text-align: center;
+	background: #fff;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.ad img{
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+/*悬浮nav的设置*/
+.m-navbox{
+	width: 100%;
+	height: 50px;
+	background: #000;
+	opacity: 0.6;
+	position: fixed;
+	top: 0;
+	z-index: 4;
+}
+.m-navList{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+.m-item{
+	float: left;
+	margin-left: 20px;
+}
+#nav-move{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	background: transparent;
+	z-index: 3;
+}
+.opacity{
+	height: 50px;
+	width: 100%;
+	background: #000;
+	opacity: 0.6;
+	position: fixed;
+	top: 0;
+	z-index: 4;
+}
+
+
+.content{
+    width: 100%;
+    /*min-width: 980px;*/
+}
+.auto{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titlebox{
+	text-align: center;
+}
+.titlebox h4{
+	color: skyblue;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.solid{
+	display: inline-block;
+	width: 20px;
+	height: 0;
+	border: 1px solid #5ec0e7;
+	margin: 0 22px;
+}
+.title{
+	display: inline-block;
+	font-size: 25px;
+	line-height: 70px;
+	margin: 41px 0;
+	font-weight: 400px;
+	vertical-align: middle;
+}
+
+.pic{
+	width: 100%;
+
+}
+.pic img{
+	width: 100%;
+	height: auto;
+}
+
+.interviewText{
+	text-align: left;
+}
+.interviewText p{	
+}
+
+.text{
+	margin-top: 10px;
+	background: #eee;
+}
+
+
+.serviceItems{
+	overflow: hidden;
+	width: 100%;
+	/*min-width: 980px;*/
+
+}
+.serviceItem{
+	width: 25%;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.anchor{
+	height: 100px;
+	margin-top: -100px;
+}
+
+.footer{
+	height: 80px;
+	width: 100%;
+	margin-top: 50px;
+	background: #000;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer .container span {
+	 color: #337ab7;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
