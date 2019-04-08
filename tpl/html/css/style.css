@@ -553,7 +553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .service-col p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   color: #999;
 }
 
@@ -908,6 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   p,
   .block p {
     margin: 0;
+    font-size: 14px;
   }
   .hero-brand {
     margin-bottom: 35px;
@@ -966,9 +967,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .block {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+  .img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: 13px;
   }
 }
