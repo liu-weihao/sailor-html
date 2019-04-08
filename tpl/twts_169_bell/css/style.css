@@ -470,7 +470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #666;
   border: 6px solid #199EB8;
   border-radius: 50%;
-  padding: 65px 25px 0 25px;
+  padding: 55px 25px 0 25px;
   position: relative;
 }
 
@@ -512,29 +512,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   Features Styling
   ================================================== */
-.partners {
+.features {
   padding-bottom: 45px;
 }
 
-.partners h2 {
+.features h2 {
   color: #199EB8;
 }
 
-.service-col {
+.feature-col {
   display: table;
   padding-bottom: 45px;
 }
 
-.service-col > div > div {
+.feature-col > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.service-col > div > div:last-child {
+.feature-col > div > div:last-child {
   padding-left: 20px;
 }
 
-.service-col .service-icon {
+.feature-col .feature-icon {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
@@ -547,11 +547,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-.service-col h3 {
+.feature-col h3 {
   color: #199EB8;
 }
 
-.service-col p {
+.feature-col p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #999;
@@ -902,7 +902,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .cta {
     padding: 35px 0;
   }
-  .partners {
+  .features {
     padding-bottom: 5px;
   }
   p,
@@ -938,7 +938,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .block {
     height: auto;
   }
-  .service-col {
+  .feature-col {
     padding-bottom: 30px;
   }
   .portfolio-grid .card h3.card-title {
