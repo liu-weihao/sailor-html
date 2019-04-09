@@ -1,4 +1,4 @@
-// var SERVER = "http://47.110.141.102";
+// var SERVER = "http://chuanyuanguanjia.com";
 var SERVER = "http://127.0.0.1";
 jQuery(document).ready(function ($) {
     "use strict";
@@ -19,7 +19,6 @@ jQuery(document).ready(function ($) {
                 } else {
                     rule = rule.substr(pos + 1, rule.length);
                 }
-
                 switch (rule) {
                     case 'required':
                         if (i.val() === '') {
@@ -56,7 +55,6 @@ jQuery(document).ready(function ($) {
             }
         });
         f.children('textarea').each(function () { // run all inputs
-
             var i = $(this); // current input
             var rule = i.attr('data-rule');
             if (rule !== undefined) {
@@ -87,10 +85,11 @@ jQuery(document).ready(function ($) {
         var str = $(this).serialize();
         $.ajax({
             type: "POST",
+            contentType: "application/json",
             url: SERVER + "/mobile/feedback/feedback.do",
-            data: str,
+            data: {"name": "1", "contact": "2", "content": "3"},
+            dataType: "json",
             success: function (result) {
-                // alert(msg);
                 if (result.status === 200) {
                     $("#sendmessage").addClass("show");
                     $("#errormessage").removeClass("show");
